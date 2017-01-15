@@ -177,3 +177,5 @@ alias reload="exec $SHELL -l"
 ##################
 alias sub="open -a sublime"
 alias finder="open -a finder"
+alias phsr="php artisan serve --host=0"
+alias pha="php artisan"
