@@ -4,6 +4,6 @@ My Configuration
 ## pre requesties
 
 ### install oh-my-zsh
-	(http://ohmyz.sh)
+	[Oh my zsh](http://ohmyz.sh)
 ### install vundle for vim
-	(https://github.com/VundleVim/Vundle.vim)
+	[Vundle](https://github.com/VundleVim/Vundle.vim)
