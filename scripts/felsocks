@@ -1,0 +1,18 @@
+if [ $1 ]; then
+  port=$1
+else
+	port=8012
+fi
+
+if ! lsof -i:$port > /dev/null
+then
+  ssh felfel@felfel -MfND $port -S ssh.sock
+  echo ssh tunnel started
+  sudo networksetup -setsocksfirewallproxy wi-fi localhost $port
+  sudo networksetup -setsocksfirewallproxystate wi-fi on
+else
+  echo port is in use
+  echo try to close
+  ssh -S ssh.sock -O exit sajjad.rahnama7@gmail.com
+  sudo networksetup -setsocksfirewallproxystate wi-fi off
+fi
