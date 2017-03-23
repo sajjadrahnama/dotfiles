@@ -1,18 +1,20 @@
+#!/bin/bash
+
 if [ $1 ]; then
   port=$1
 else
 	port=8012
 fi
-
+sock_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/ssh.sock"
 if ! lsof -i:$port > /dev/null
 then
-  ssh felfel@felfel -MfND $port -S ssh.sock
+  ssh felfel@felfel -MfND $port -S $sock_dir
   echo ssh tunnel started
   sudo networksetup -setsocksfirewallproxy wi-fi localhost $port
   sudo networksetup -setsocksfirewallproxystate wi-fi on
 else
   echo port is in use
   echo try to close
-  ssh -S ssh.sock -O exit sajjad.rahnama7@gmail.com
+  ssh -S $sock_dir -O exit sajjad.rahnama7@gmail.com
   sudo networksetup -setsocksfirewallproxystate wi-fi off
 fi
