@@ -90,5 +90,8 @@ source $HOME/.aliases
 # Environment variable exports
 source $HOME/.exports
 
+# Environment variable mac exports
+source $HOME/.mac_exports
+
 # Mac Command aliases
 source $HOME/.mac_aliases
