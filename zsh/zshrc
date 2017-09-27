@@ -50,7 +50,7 @@ ZSH_THEME="sajjad"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git composer zsh_reload sudo colorize colored-man cp extract tmuxinator laravel5 z adb docker mosh)
+plugins=(git composer brew zsh_reload sudo colorize colored-man cp extract tmuxinator laravel5 z adb docker mosh osx command-not-found python pip github zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 
@@ -89,9 +89,3 @@ source $HOME/.aliases
 
 # Environment variable exports
 source $HOME/.exports
-
-# Environment variable mac exports
-source $HOME/.mac_exports
-
-# Mac Command aliases
-source $HOME/.mac_aliases
