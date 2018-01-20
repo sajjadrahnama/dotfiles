@@ -50,7 +50,7 @@ ZSH_THEME="sajjad"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git composer sudo cp z docker mosh osx pip zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git composer sudo cp z docker mosh osx pip zsh-syntax-highlighting)
 
 # User configuration
 
@@ -68,6 +68,7 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

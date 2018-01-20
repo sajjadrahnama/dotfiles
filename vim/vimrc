@@ -80,7 +80,7 @@ set expandtab
 set autoindent
 
 " Automatically inserts one extra level of indentation in some cases, and works for C-like files.
-set smartindent
+" set smartindent
 
 " Highlight searches
 set hlsearch
