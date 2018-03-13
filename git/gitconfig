@@ -1,0 +1,6 @@
+[user]
+	name = Sajjad Rahnama
+	email = sajjad.rahnama7@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
