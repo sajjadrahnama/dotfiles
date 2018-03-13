@@ -32,4 +32,3 @@ source $HOME/.zsh/exports.sh
 
 # Plugins
 source $HOME/.zsh/zsh.plug/docker.zsh
-source $HOME/.zsh/zsh.plug/prompt.zsh
