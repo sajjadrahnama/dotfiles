@@ -11,7 +11,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 
 # Install ZSH Config
-cp -r "$dir/zsh" ~/.zsh
+cp -r "$dir/zsh/." ~/.zsh/
 cp "$dir/zsh/sajjad.zsh-theme" ~/.oh-my-zsh/themes
 cp "$dir/zsh/zshrc" ~/.zshrc
 

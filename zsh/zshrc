@@ -25,10 +25,10 @@ export EDITOR='vim'
 
 
 # Command aliases
-source $HOME/.zsh/.aliases.sh
+source $HOME/.zsh/aliases.sh
 
 # Environment variable exports
-source $HOME/.zsh/.exports.sh
+source $HOME/.zsh/exports.sh
 
 # Plugins
 source $HOME/.zsh/zsh.plug/docker.zsh
