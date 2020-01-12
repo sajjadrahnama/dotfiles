@@ -26,8 +26,6 @@ export LC_ALL="en_US.UTF-8"
 # Highlight section titles in manual pages
 export LESS_TERMCAP_md="$ORANGE"
 
-# Always enable colored `grep` output
-export GREP_OPTIONS="--color=auto"
 
 # Add brew sbin bin to path
 export PATH="/usr/local/sbin:$PATH"
