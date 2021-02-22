@@ -10,7 +10,7 @@ ZSH_THEME="sajjad"
 
 
 # plugins
-plugins=(git composer sudo cp z docker mosh osx pip zsh-syntax-highlighting)
+plugins=(git composer sudo cp z docker mosh osx pip)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh

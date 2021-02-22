@@ -84,9 +84,6 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
     alias "$method"="lwp-request -m '$method'"
 done
 
-# Make Grunt print stack traces by default
-command -v grunt > /dev/null && alias grunt="grunt --stack"
-
 
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
@@ -115,3 +112,5 @@ alias finder="open -a finder"
 alias wifi="networksetup -getinfo Wi-Fi"
 alias chrome="open -a Google\ Chrome"
 alias pingg="ping google.com"
+alias cls="echo -ne \"\033c\""
+
