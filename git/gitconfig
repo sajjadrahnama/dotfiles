@@ -4,3 +4,7 @@
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
+
+[alias]
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  graph = log --graph --oneline --decorate --all

@@ -10,7 +10,7 @@ ZSH_THEME="sajjad"
 
 
 # plugins
-plugins=(git composer sudo cp z docker mosh osx pip)
+plugins=(git sudo cp docker)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh

@@ -3,7 +3,7 @@
 dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Install Vundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 
 # Install Oh-My-Zsh
@@ -16,10 +16,10 @@ cp "$dir/zsh/sajjad.zsh-theme" ~/.oh-my-zsh/themes
 cp "$dir/zsh/zshrc" ~/.zshrc
 
 # Install VIM Config
-cp -r "$dir/vim/colors" ~/.vim
-cp "$dir/vim/vimrc" ~/.vimrc
-mkdir -p ~/.vim/tmp
-mkdir -p ~/.vim/backup
+#cp -r "$dir/vim/colors" ~/.vim
+#cp "$dir/vim/vimrc" ~/.vimrc
+#mkdir -p ~/.vim/tmp
+#mkdir -p ~/.vim/backup
 
 
 # Install ZSH Config
